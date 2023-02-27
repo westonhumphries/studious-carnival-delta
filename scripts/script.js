@@ -23,20 +23,6 @@ $(document).ready(function () {
 
 
 
-/*
-function generateCoolNameFacts(userName) {
-  let coolFacts = "";
-
-  coolFacts = nameLength(userName);
-  coolFacts += " <br> " + nameStart(userName);
-  coolFacts += "<h3> " + nameEnd(userName) + "</h3>";
-  coolFacts += "<h2>" + reverseName(userName) + "</h2>";
-
-  console.log("initialized the'm coolFacts variable: " + coolFacts);
-
-  return coolFacts;
-}
-*/
 
 
 function nameLength(userName) {
@@ -48,26 +34,7 @@ function nameLength(userName) {
 }
 
 
-/*
-function nameStart(name) {
-  return "the first letter of your name is " + name[0];
-}
 
-function nameEnd(name) {
-  let lastIndex = name.length - 1;
-
-  return "the last letter of your name is " + name[lastIndex];
-}
-*/
-/*
-function reverseName(name) {
-  // let arrSomeArray = [1, "cat", "Susan", [j, "stuff"]];
-
-  let arrName = name.split();
-
-  revName = arrName.reverse();
-}
-*/
 function getSpiritAnimal(userName) {
   //flow control: case switch, loop, if/then
 
